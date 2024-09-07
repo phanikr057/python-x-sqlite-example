@@ -14,6 +14,6 @@ conn.commit()
 cursor.execute("SELECT * FROM users")
 rows = cursor.fetchall()
 for row in rows:
-print(row)
+    print(row)
 # Close the connection
 conn.close()
